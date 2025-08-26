@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Setup venv",
+            "type": "shell",
+            "command": "if [ ! -d \"venv\" ]; then python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt; fi",
+            "problemMatcher": []
+        }
+    ]
+}

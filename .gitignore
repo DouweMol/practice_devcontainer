@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Dev container files (optional, if you don't want to track them)
+.devcontainer/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Node modules if used
+node_modules/
+
+# Backup files
+*~
+
